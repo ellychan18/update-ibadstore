@@ -1,0 +1,6 @@
+{
+  "name": "Ibad Store",
+  "description": "Top up game murah kilat hitungan detik, pulsa all operator, token PLN, voucher game & tagihan PPOB 24 jam dengan QRIS otomatis dan garansi transaksi 100% aman di Ibad Store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

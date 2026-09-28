@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="pad-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#312e81" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Squircle App Icon Base -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg-grad)" />
+
+  <!-- Subtle Inner Border Highlight -->
+  <rect x="26" y="26" width="460" height="460" rx="110" stroke="white" stroke-width="4" stroke-opacity="0.3" fill="none" />
+
+  <!-- Center Gaming Controller Icon -->
+  <g filter="url(#shadow)">
+    <!-- Controller Body -->
+    <path
+      d="M176 172C130 172 96 210 96 264C96 304 116 352 144 368C164 380 186 364 198 344L212 320C218 310 230 304 242 304H270C282 304 294 310 300 320L314 344C326 364 348 380 368 368C396 352 416 304 416 264C416 210 382 172 336 172H176Z"
+      fill="url(#pad-grad)"
+    />
+
+    <!-- D-Pad (Left) -->
+    <path
+      d="M182 222C182 217.5 178.5 214 174 214H162C157.5 214 154 217.5 154 222V236H140C135.5 236 132 239.5 132 244V256C132 260.5 135.5 264 140 264H154V278C154 282.5 157.5 286 162 286H174C178.5 286 182 282.5 182 278V264H196C200.5 264 204 260.5 204 256V244C204 239.5 200.5 236 196 236H182V222Z"
+      fill="#4f46e5"
+    />
+
+    <!-- Action Buttons (Right) -->
+    <!-- X button (Top) -->
+    <circle cx="340" cy="226" r="10" fill="#06b6d4" />
+    <!-- B button (Right) -->
+    <circle cx="364" cy="250" r="10" fill="#ef4444" />
+    <!-- A button (Bottom) -->
+    <circle cx="340" cy="274" r="10" fill="#10b981" />
+    <!-- Y button (Left) -->
+    <circle cx="316" cy="250" r="10" fill="#f59e0b" />
+
+    <!-- Center Lightning / Bolt Accent (Speed & Instant Top Up) -->
+    <path
+      d="M260 196L246 226H264L252 260L274 222H256L266 196H260Z"
+      fill="#4f46e5"
+      stroke="#ffffff"
+      stroke-width="1.5"
+    />
+  </g>
+
+  <!-- Sparkle Accent (Top-Right) -->
+  <polygon points="410,72 418,94 440,102 418,110 410,132 402,110 380,102 402,94" fill="url(#gold-grad)" />
+  <circle cx="436" cy="68" r="6" fill="#fbbf24" opacity="0.8" />
+</svg>

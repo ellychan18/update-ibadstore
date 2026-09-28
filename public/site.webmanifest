@@ -1,0 +1,19 @@
+{
+  "name": "Ibad Store Pro",
+  "short_name": "Ibad Store",
+  "description": "Platform Top Up Game Tercepat, Pulsa, Token PLN, Voucher Game & PPOB Terpercaya 24 Jam.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
